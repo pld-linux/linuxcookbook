@@ -11,11 +11,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Over 1,500 time-saving recipes and hints for busy modern computer users.
+Over 1,500 time-saving recipes and hints for busy modern computer
+users.
 
 %description -l pl
-Ponad 1500 przepisów i wskazówek oszczêdzaj±cych czas
-dla zaganianych u¿ytkowników komputerów.
+Ponad 1500 przepisów i wskazówek oszczêdzaj±cych czas dla zaganianych
+u¿ytkowników komputerów.
 
 %prep
 %setup -q
