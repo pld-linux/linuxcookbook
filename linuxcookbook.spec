@@ -7,7 +7,7 @@ License:	distributable
 Group:		Documentation
 Source0:	http://www.tldp.org/LDP/%{name}/%{name}-%{version}.html.tar.gz
 # Source0-md5:	876773dbb8c7b0b12951e939dfd5f0d7
-URL:		http://www.tldp.org/LDP/%{name}/html/index.html
+URL:		http://www.tldp.org/LDP/linuxcookbook/html/index.html
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
