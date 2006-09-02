@@ -5,9 +5,10 @@ Version:	1.2
 Release:	1
 License:	distributable
 Group:		Documentation
-Source0:	http://www.tldp.org/LDP/%{name}/%{name}-%{version}.html.tar.gz
+Source0:	http://www.tldp.org/LDP/linuxcookbook/%{name}-%{version}.html.tar.gz
 # Source0-md5:	876773dbb8c7b0b12951e939dfd5f0d7
 URL:		http://www.tldp.org/LDP/linuxcookbook/html/index.html
+Requires:	LDP-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,8 +26,7 @@ u¿ytkowników komputerów.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
-
-cp -ar * $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
+cp -a * $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
