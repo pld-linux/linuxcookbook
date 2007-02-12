@@ -1,5 +1,5 @@
 Summary:	LDP Linux Cookbook
-Summary(pl):	Linuksowa ksi笨ka kucharska
+Summary(pl.UTF-8):   Linuksowa ksi膮偶ka kucharska
 Name:		linuxcookbook
 Version:	1.2
 Release:	1
@@ -16,9 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Over 1,500 time-saving recipes and hints for busy modern computer
 users.
 
-%description -l pl
-Ponad 1500 przepis體 i wskaz體ek oszcz阣zaj眂ych czas dla zaganianych
-u縴tkownik體 komputer體.
+%description -l pl.UTF-8
+Ponad 1500 przepis贸w i wskaz贸wek oszcz臋dzaj膮cych czas dla zaganianych
+u偶ytkownik贸w komputer贸w.
 
 %prep
 %setup -q
