@@ -1,5 +1,5 @@
 Summary:	LDP Linux Cookbook
-Summary(pl.UTF-8):   Linuksowa książka kucharska
+Summary(pl.UTF-8):	Linuksowa książka kucharska
 Name:		linuxcookbook
 Version:	1.2
 Release:	1
